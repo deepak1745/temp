@@ -1,13 +1,126 @@
-div{
-      width: 500px;
-      margin: auto;
+.primary{
+     overflow: hidden;
 }
-p.quote {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #F8F8F8;
-    min-height: 30px;
-    border-spacing: 10px;
-    padding-top: 15px;
-    text-align: center;
+
+.wrap{
+  float:left;
+  overflow: hidden;
+}
+.wrap img{
+  margin-left:130px;
+  margin-top:10px;
+
+}
+.head{
+  margin-left:90px;
+  font-family: sans-serif;
+  line-height: 50px;
+  color:#6633FF;
+  font-weight:600;
+  margin-top: -20px;
+  text-shadow:1px 2px 1px #CC3300;
+}
+.nav{
+  float: right;
+  overflow: hidden;
+}
+.nav ul{
+    margin-top: 10px;
+  }
+.nav li{
+
+    display: inline-block;
+    list-style: none;
+    margin-right:25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 13 px;
+  }
+.nav li a{
+  color: #993366;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.nav li a:hover{
+    color:#1ABC9C;
+    font-size:20px;
+}
+.nav ul li:hover ul {display: block;}
+.nav ul li ul {
+  position: absolute;
+  width:18%;
+  display: none;
+}
+.nav ul li ul li a {display:block !important;
+  letter-spacing: 1px;
+  padding-left: 5px;
+}
+.nav ul li ul li {
+  background:#00FF66;
+  display: block;
+}
+.container li{
+  margin-right: 10px;
+}
+.container input{
+    height: 50px;
+    font-size: 20px;
+    width:400px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+.moto{
+  margin-top:20px;
+}
+.moto img{
+  margin-left: 1px;
+}
+.moto p{
+
+       color: #999;
+       font-family: sans-serif;
+       font-size: 20px;
+       margin-top:70px;
+       padding-left: 0px;
+       line-height: 30px;
+       letter-spacing: 2px;
+
+}
+.main{
+    margin-top:50px;
+}
+
+.sec {
+  margin:auto;
+  text-align: center;
+}
+.sec h4{
+  color: #66FF66;
+  letter-spacing: 2px;
+}
+.sec .emphasis a{
+  color: #600000;
+}
+.main p{
+  margin-top: 20px;
+  color: #330033;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.main  input{
+
+  background-color:#FF0066 ;
+  color: #064661;
+
+}
+.main input:hover{
+  background-color:#66FFFF;
+  color:green;
+}
+
+.person{
+  width:250px;
+  height:250px;
+  border-radius: 50%;
 }
