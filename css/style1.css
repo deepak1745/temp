@@ -1,0 +1,35 @@
+
+.hero{
+  width: 1366px;
+  height:900px;
+background-image: url("../img/Chelsea.jpg");
+margin-left: 0;
+}
+.hero h1{
+   color: #ffffff;
+   text-align: center;
+   padding-top: 30px;
+   letter-spacing: 3px;
+}
+.hero h2{
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.hero .highlight{
+  color: #1ABC9C;
+  font-size: 40px;
+}
+.info{
+  float: left;
+  color:#7f98a6;
+  letter-spacing: 4px;
+  width: 370px;
+  padding-left: 50px;
+  padding-top: 60px;
+  font-size: 30px;
+}
+.info p{
+  lin
+}
