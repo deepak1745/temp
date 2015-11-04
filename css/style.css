@@ -203,10 +203,11 @@ a.btn.btn-info.btn-lg:hover{
   text-align: center;
 }
 .sec h4{
-  color: #66FF66;
+   color: #1ABC9C;
+  font-weight: 300px;
   text-transform: uppercase;
   margin-left: -20px;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 5px;
 }
 .sec .emphasis a{
@@ -222,12 +223,13 @@ a.btn.btn-info.btn-lg:hover{
 .main p{
   margin-top: 40px;
   margin-left: 10px;
-  color: #330033;
+  font-weight: 300px;
+  font-size: 15px;
   line-height: 20px;
 }
 .main  input{
-  background-color:#66FFFF;
-  color: #993366;
+  background-color:#38474e;
+  color:#ffffff;
 }
 .main input:hover{
   background-color:#FF0066;
