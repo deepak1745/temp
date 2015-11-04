@@ -90,11 +90,10 @@ a.btn.btn-info.btn-lg:hover{
 
 }
 .intro .abstract{
-  font-family: sans-serif;
   font-size: 25px;
   letter-spacing: 1px;
   color: #555;
-  padding-left: 90px;
+  padding-left: 130px;
   padding-top: 30px;
 }
 .abstract .bold{
